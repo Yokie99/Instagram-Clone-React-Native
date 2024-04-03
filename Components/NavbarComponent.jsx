@@ -25,7 +25,7 @@ const NavbarComponent = () => {
             { fontFamily: "GrandHotel_400Regular" },
           ]}
         >
-          Instagram123
+          Instagram
         </Text>
       </View>
       <View style={[style.CenterMain]}>
@@ -46,7 +46,8 @@ const NavbarComponent = () => {
 
 const style = StyleSheet.create({
   HeaderContainer: {
-    marginTop: 50,
+    marginTop: 45,
+    paddingLeft: 10,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",

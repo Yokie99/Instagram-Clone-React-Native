@@ -9,9 +9,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <NavbarComponent/>
-      {/* <StoryComponent/>
-      <PostComponent/>
-      <FooterComponent/> */}
+      <StoryComponent/>
+      {/* <PostComponent/>*/}
+      <FooterComponent/> 
 
     </View>
   );
